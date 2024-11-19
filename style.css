@@ -112,7 +112,8 @@ body {
 }
 .fa-pen-to-square {
   position: absolute;
-  right: 40px;
+  right: 50px;
+  color: green;
 }
 /* Animations */
 @keyframes fadeIn {
