@@ -3,7 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0ff;
+  background-image: linear-gradient(to top, #f8b1e4 0%, #9dbbef 100%);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -95,33 +95,6 @@ body {
   position: relative;
   border-right: 0px solid lightgray;
   will-change: transform;
-}
-
-#tasks #tasksList li:hover {
-  border-right: 55px solid red;
-  transform: scale(1.05);
-  z-index: 20;
-  box-shadow: 0 20px 30px 0 rgba(1, 1, 1, 0.2);
-}
-
-#tasks #tasksList li:hover .delete {
-  right: -37px;
-  color: white;
-}
-
-#tasks #tasksList li .delete {
-  transition: all 0.30s ease-in-out;
-  position: absolute;
-  color: transparent;
-  background: none;
-  border: none;
-  outline: 0;
-  line-height: 0.85rem;
-  font-size: 1rem;
-}
-
-#tasks #tasksList li .delete:hover {
-  opacity: 0.75;
 }
 
 #tasks #notification {
